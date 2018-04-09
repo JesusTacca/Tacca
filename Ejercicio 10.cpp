@@ -43,7 +43,7 @@ float CadToInt(char *cadena)
     for(int i=0; i<cont;i++)
     {
         if ('a'-cadena[i]==53)
-            div=i;
+            div=p;
         else if('a'-cadena[i]==49)
             {cad[p]=0;p++;}
 	else if('a'-cadena[i]==48)
